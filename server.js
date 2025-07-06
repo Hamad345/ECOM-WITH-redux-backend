@@ -9,7 +9,7 @@ mongoose.connect('mongodb+srv://hamadkhan:hamadKhan654321@cluster0.krc9k.mongodb
  {};
  app.use(
     cors({
-        origin : 'http://localhost:5173/',
+        origin : 'http://localhost:5173',
         methods : ['GET','POST',"DELETE","PUT"],
         allowedHeaders : [
             "Content-Type",
